@@ -14,6 +14,10 @@ app.put('https://pokeapi.co/api/v2/pokemon', (req, res) => {
   res.status(404).send(err);
 })
 
+app.post('https://pokeapi.co/api/v2/pokemon', (req, res) => {
+  
+})
+
 app.listen(port, () => {
   console.log(`Sever listening on ${port}`)
 })
